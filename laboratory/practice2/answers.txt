@@ -1,0 +1,25 @@
+Nome: Evandro Sperfeld Coan, Fernando Paladini
+
+Pergunta (a):
+Tamanho teórico: 882.000 bytes.
+Tamanho na prática (visualizado no Linux): 882.044 bytes.
+
+A diferença dos 44 bytes a mais se dá porque qualquer arquivo armazenado no computador possui um cabeçalho com metadados do arquivo. Essas informações do cabeçalho de cada arquivo ocupam espaço, por isso o tamanho do arquivo teórico não corresponde ao tamanho do arquivo na prática.
+
+
+Pergunta (b):
+i) 220500 bytes.
+ii) Teórico: 5512.5 Hz. Prático (visualizado no Audacity): 5455 Hz.
+iii) A perda da qualidade ocorreu pois definimos a taxa de amostragem como 11025 Hz, de forma que a frequência máxima do áudio pode ser 5512.5 Hz (obtido através da inversa do Teorema de Nyquist, que define que para sinais com frequências até f, a taxa de amostragem deve ser 2f).
+
+
+Pergunta (c):
+i) 110250 bytes.
+ii) Teórico: 5512.5 Hz.
+iii) A taxa de amostragem se manteve a mesma do exercício anterior, portanto as frequências máximas do sinal amostrado se mantêm as mesmas. A quantidade de bits por amostra define ou classifica cada amostra em um “nível”, como houve uma queda da quantidade de bits por amostra (de 16 bits para 8 bits), alguns níveis foram suprimidos, o que acaba causando uma perda de qualidade no áudio (distorção).
+ 
+
+Pergunta (d):
+i) 80000 bytes.
+ii) Teórico: 4000 Hz.
+iii) Assim como exercício (b), a perda da qualidade ocorreu pois reduzimos a taxa de amostragem de 11025 Hz para 8000 Hz. Desta forma, aplicando-se o Teorema de Nyquist, temos que a frequência máxima do áudio pode ser até 4.000 Hz, ocasionando uma perda de informação para frequências acima dessa.
